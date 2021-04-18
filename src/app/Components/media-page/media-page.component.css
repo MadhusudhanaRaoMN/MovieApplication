@@ -1,0 +1,47 @@
+ .movies-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+
+
+  .movie{
+    margin-bottom: 1.8em;
+    flex-basis: 20%;
+  }
+
+  figure{
+    padding: 0;
+    margin: 0;
+  }
+  .main-container{
+    margin-top: 50px;
+   
+  }
+
+  .movies-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1em;
+  }
+    .count{
+      color: secondary-title;
+    }
+img{
+    /* position: absolute; */
+    top: calc(50% - 1em);
+    left: 1em;
+    width: 15em;
+    height: 15em;
+  } 
+
+  .title,
+    .rate{
+    
+      margin-top: 0.3em;
+      padding: 0.3em;
+    }

@@ -1,0 +1,23 @@
+chart{
+    width: 727px;
+    height: 377px;
+    margin-top: 68px;
+}
+
+canvas{
+    width: 727px;
+    height: 377px;
+    margin-top: 68px;
+}
+
+baseChart{
+    width: 727px;
+    height: 377px;
+    margin-top: 68px;
+}
+
+.pi {
+    display: block;
+    width: 50%;
+    height: 50%;
+}

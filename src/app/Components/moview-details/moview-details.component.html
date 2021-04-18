@@ -1,0 +1,41 @@
+<app-header></app-header>
+
+<div class="movie-info-container">
+    <div class="grid-container" style="border-color:tomato;">
+        <div class="grid-child purple" >
+            <div class="movie-banner-cover">
+                <img src="{{data.imageUrl}}" alt="movie cover">
+              </div>
+        </div>
+
+    <div class="grid-child green">
+    <div >
+      <div class="movie-detail">
+        <h2>{{data.name}}</h2>
+        <div class="short-info">
+          <div class="rate"><span>rate: <strong>{{data.price}}</strong></span></div>
+          
+            <div class="duration"><span>length: <strong>{{data.quantity}}</strong></span></div>
+          
+         
+          <!-- <div class="genres">
+            <span>genres:</span>
+            <a *ngFor="let genre of movie.genres" [routerLink]="['/movies/']" [queryParams]="{filter:genre}">
+              {{genre}}
+            </a>
+          </div> -->
+        </div>
+        <p class="desc">
+            <label style="font-size: large;">Description: </label>
+          {{data.description}}
+        </p>
+      </div>
+    </div>
+</div>
+
+</div>
+
+  </div>
+
+
+

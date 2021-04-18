@@ -1,0 +1,64 @@
+.movie-info-container{
+    margin-top: 100px;
+    /* width: 100%; */
+  }
+
+
+  .movie-banner-cover{
+    position: relative;
+    max-height: 25em;
+    overflow: hidden;
+  }
+  
+    img{
+      width: 100%;
+    }
+
+    .movie-detail-container{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0 2em;
+        transform: translateY(-4em);
+      }
+
+      .movie-detail{
+        padding: 0 1em;
+        color: darken(light, 35);
+      }
+
+      h2{
+        color: primary-title;
+        margin-top: 0;
+      }
+    
+      .short-info{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        text-transform: capitalize;
+      }
+    
+        div {
+          margin-right: 1em;
+        }
+    
+        strong{
+          color: primary-title;
+        }
+
+        .desc{
+            max-width: 70%;
+            line-height: 1.8;
+          }
+      
+     
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+    
+  
