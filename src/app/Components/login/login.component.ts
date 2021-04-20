@@ -16,10 +16,10 @@ export class LoginComponent implements OnInit {
 
   login(loginDetails){
     this.errorMessage = " ";
-    if (loginDetails.uname == "madhu" && loginDetails.psw == "Madhu@123") {
+    if (loginDetails.uname == "Rao" && loginDetails.psw == "Rao@M") {
       this.router.navigate(["/home"]);
     } else {
-      this.errorMessage = "Enter user name as 'madhu' and password as 'Madhu@123'";
+      this.errorMessage = "Enter Valid Credential!'";
     }
     console.log(loginDetails)
 
